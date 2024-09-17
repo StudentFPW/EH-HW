@@ -3,9 +3,9 @@ import requests
 
 def main():
     file_extensions = []
+    file_name = "./common-files.txt"
     url = "https://www.hackthissite.org/"
     extension = "/"
-    file_name = "./common-files.txt"
     found_links = []
 
     while True:
